@@ -31,7 +31,7 @@ class ServoMonitor:
         self.current_monitoring_active = False
         self.temp_threshold_high = 0.89
         self.temp_threshold_low = 0.70
-        self.enable_vibration = False
+        self.enable_vibration = True
         self.enable_temp = True
         self.enable_current = True
         
